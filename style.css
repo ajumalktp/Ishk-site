@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+.navbar1{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.ishk.net/wp-content/uploads/2016/03/ishkTile.png);
+    background-size: 20px;
+}
+.navbar1 img{
+    width: 345px;
+}
+.navbar2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    margin: 10px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.navbar2 button{
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    background: #fdc666;
+    font-size: 17px;
+}
+.navbar2 img{
+    width: 20px;
+    margin: 10px;
+}
+.mainbody1{
+    width: 100%;
+    height: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.first-img{
+    width: 1240px;
+    height: 430px;
+    background-color: blue;
+}
+.mainbody2{
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainbody2-content1{
+    width: 1240px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.06);
+    margin-top: 45px;
+    display: flex
+}
+.content-cards{
+    width:413.3px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+em{
+    font-size: 33px;
+}
+b{
+    margin: 7px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #e02b20;
+}
+p{
+    margin: 7px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.mainbody2-content2{
+    width: 1240px;
+    height: 740px;
+    margin-top: 70px;
+    border-bottom: 1px solid #373636;
+    display: flex;
+
+}
+.content2-body{
+    width: 439.85px;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #373636;
+}
+.content2-body-center{
+    width: 360.3px;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #373636;
+}
+.mainbody3{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainbody3-content{
+    width: 1240px;
+    height: 150px;
+    display: flex;
+}
+.mainbody3-content-card{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainbody3-content-card h2{
+    font-size: 30px;
+    font-family: "Lora",serif!important;
+    font-weight: 400;
+}
+.body1-button2{
+    width: 210px;
+    height: 65px;
+    font-size: 24px;
+    color: #cd2a39!important;
+    background: white;
+    border: 4px #cd2a39 solid;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color:#cdeff1;
+    bottom: 0;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content{
+    width: 1240px;
+    height: 50%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content p{
+    color: #474444;
+}
